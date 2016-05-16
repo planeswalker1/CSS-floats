@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background-color: skyblue;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+main {
+  background-color: orange;
+}
+
+header {
+  background-color: cyan;
+  padding: 20px;
+}
+
+.callout {
+  border: 2px inset;
+}
+
+.callout--first {
+  float: left;
+}
+
+.callout--second {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  clear: both;
+}
+
+aside, section {
+  float: left;
+}
+
+aside {
+  background-color: orange;
+  width: 200px;
+}
+
+a {
+  color: red;
+}
+
+section {
+  background-color: white;
+  width: 600px;
+}
+
+figure {
+  float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
